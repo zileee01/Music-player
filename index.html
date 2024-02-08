@@ -23,7 +23,7 @@
             <h1>Ghost Love Score</h1>
             <p>Nightwish</p>
 
-            <audio controls>
+            <audio  id="song">
                 <source src="images/NIGHTWISH - Ghost Love Score (OFFICIAL LIVE) (320 kbps).mp3" type="audio/mpeg">
             </audio>
 
@@ -31,7 +31,7 @@
 
             <div class="controls">
                 <div><i class="fa-solid fa-backward"></i></div>
-                <div><i class="fa-solid fa-play"></i></div>
+                <div onclick="playPause()"><i class="fa-solid fa-play" id="ctrl-icon"></i></div>
                 <div><i class="fa-solid fa-forward"></i></div>
             </div>
 
